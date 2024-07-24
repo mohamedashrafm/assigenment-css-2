@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+}
+.parent{
+    background-image: url(img/hero\ img.jpg);
+    color: white;
+    height: 100vh;
+   
+}
+.layer2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #22222263;
+    width: 100%;
+    height: 100%;
+}
+.contant{
+    text-align: center;
+   
+}
+.contant h1{
+    color: brown;
+    font-size: 50px;
+}
+.contant p{
+    font-size: 25px;
+}
+.par{
+    float:left;
+    width: 30%;
+    height: 50%;
+    margin: 0px 90px;
+    color: brown;
+   
+}
+ a{
+    color: white;
+    text-decoration: none;
+}
+.blow{
+    color: brown;
+}
+.link{
+    float: right;
+    width: 50%;
+}
+ a:hover {
+    color: brown;
+}
+.clr{
+    clear: both;
+}
+.link ul{
+    list-style-type: none;
+
+}
+.link ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.clr{
+    clear: both;
+}
+
+    
+
+.about-img{
+    float: left;
+  
+    width: 30%;
+    margin: 0px 100px;
+    position: relative;
+    overflow: hidden;
+}
+.about-img img{
+width: 100%;
+
+}
+.layer1{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background-color: #222222a8;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+   
+}
+.about-img:hover .layer1{
+    top:0%;
+    
+}
+.mo{
+    float: left;
+  
+    width: 35%;
+  
+}
+.name{
+    float: left;
+    width: 40%;
+}
+.title{
+    float: right;
+    width: 50%;
+}
+.Our-Services{
+    text-align: center;
+}
+.line{
+    border: red;
+    width: 10%;
+    height: 2px;
+    background-color: red;
+    margin: 10px 0px;
+}
+.lin{
+    border: red;
+    background-color: red;
+    width: 5%;
+    height: 2px;
+    margin: 10px 0px;
+   
+}
+.li{
+    border: red;
+    background-color: red;
+    width: 5%;
+    height: 2px;
+    margin: 10px 10px
+}
+
+.line{
+    margin: 0px 620px;
+}
+.lin{
+    margin: 0px 640px;
+}
+.li{
+    margin: 0px 640px;
+}
+.DESIGN{
+    float: left;
+    width: 24%;
+    position: relative;
+}
+.layer7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #22222250;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:   opacity 1s;
+}
+.DESIGN:hover .layer7 {
+    opacity: 1;
+}
+
+
+.Portfolio{
+    text-align: center;
+   
+}
+.Files{
+    text-align: center;
+    width: 25%;
+    float: left;
+    height: 20%;
+margin: 50px 0px;
+}
+.team{
+    background-color:whitesmoke;
+}
+.contaner{
+    margin: 50px 60px;
+}
+.red{
+    color: red;
+ 
+}
+.mo h2{
+    display: inline-block;
+}
+.butt button{
+    color: white;
+    background-color: crimson;
+    padding: 15px 
+   
+}
+button:hover{
+
+    background-color: darkkhaki;
+
+}
+
+
+
+
+.Services{
+    background-color: whitesmoke;
+}
+.about{
+    padding: 30px 20px ;
+}
+.Services{
+    padding: 30px 20px ;
+}
+.Contact-Us{
+    text-align: center;
+}
+.Contact-form{
+   margin: 0px 500px;
+}
+
+.Contact-form button{
+    padding: 15px;
+    background-color: brown;
+    color: white;
+    border: brown;
+}
+
+.ha{
+    padding: 7px 60px;
+}
+.Contact-form:hover button{
+
+    background-color: burlywood;
+}
+.log-img img{
+width: 40px;
+height: 40px;
+
+}
+.log-img{
+    text-align: center;
+    padding: 30px;
+    background-color: #222;
+}
+.log p{
+color: white;
+}
+
+/* .moha {
+    padding: 10px 40px;
+    text-align: center; */
+/*     
+} */
+.Contact{
+    padding: 30px;
+}
+.Portfolio-img1{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.layer3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #222222a8;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:   opacity 1s;
+}
+.Portfolio-img1:hover .layer3 {
+    opacity: 1;
+}
+
+.Portfolio-img1 img{
+    width: 100%;
+}
+.Portfolio-img3{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.layer4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #222222a8;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:   opacity 1s;
+}
+.Portfolio-img3:hover .layer4 {
+    opacity: 1;
+}
+   
+.Portfolio-img3 img{
+    width: 100%;
+}
+.Portfolio-img4{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.layer5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #222222a8;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:   opacity 1s;
+}
+.Portfolio-img4:hover .layer5 {
+    opacity: 1;
+}
+.Portfolio-img4 img{
+    width: 100%;
+}
+.Portfolio-img2{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.layer6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #222222a8;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:   opacity 1s;
+}
+.Portfolio-img2:hover .layer6 {
+    opacity: 1;
+}
+.Portfolio-img2 img{
+    width: 100%;
+}
+.Portfolio h2{
+font-size: 30px;
+}
+.Our-Services h2{
+    font-size: 30px;
+}
+.moha input{
+    padding: 10px 40px;
+   
+    
+}
+.Blog img{
+width: 100%;
+}
+.Blog{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.Blog1{
+    text-align: center;
+    font-size: 30px;
+}
+.Our-Blog{
+    background-color: whitesmoke;
+}
+.Contact-Us h2{
+    font-size: 30px;
+}
+.red1{
+    color: red;
+ 
+}
+.Portfolio h4{
+    display: inline-block;
+}
+span{
+    color: #222222b8;
+}
+.feed-back h2{
+    text-align: center;
+}
+.feed-back .content{
+    width: 70%;
+    margin: auto;
+    background-color:wheat;
+    position: relative;
+    height: 250px;
+    margin-top: 70px;
+
+}
+.feed-back .content .back{
+    position: absolute;
+    top: 0;
+    background-color: #ff305b;
+    width: 30%;
+    height: 60%;
+    z-index: 6;
+    border-bottom-right-radius: 100%;
+
+
+}
+.feed-back .content img{
+    border-radius: 50%;
+}
+.feed-back .content .img{
+    float: left;
+    position:absolute;
+    z-index: 7;
+    top: 15%;
+    left: 10%;
+}
+.feed-back .content .text{
+    float: right;
+    width: 65%;
+}
+.feed-back .content .text p{
+    line-height: 35px;
+}
